@@ -1,9 +1,9 @@
 ID,Work Item Type,Title,State,Description
-1,Epic,Art on Denim Task 2,Active,Website and Android app for the existing Art on Denim store.
-2,Feature,Website storefront,Closed,Home shop product cart checkout orders journal and studio chat.
-3,Feature,Android app,Active,Same customer flows as the website against the JSON API.
-4,Feature,Google sign-in,Active,OpenID Connect is coded. It stays unverified until a Google client id and secret are added.
+1,Epic,Art on Denim Task 2,Active,Website and Android app for the existing Art on Denim store. Updated 19 Oct 2026 from the work that is actually in the repository.
+2,Feature,Website storefront,Closed,Home shop product cart checkout orders journal and studio chat are in the PHP site.
+3,Feature,Android app,Closed,The installed app opens the same website full screen so the phone uses the same account cart and orders as the site.
+4,Feature,Google sign-in,Active,OpenID Connect is coded. It stays off until a Google client id and secret are added in config/google.local.php.
 5,Feature,Seed data,Closed,Required tables hold at least 10 linked rows. API tokens are created only by real sign-in.
-6,Task,WampServer,Closed,Site runs on the installed Wamp Apache PHP 7.4.
-7,Task,Physical phone test,New,Record only after the app is installed on a phone using the PC LAN address.
-8,Task,GitHub Actions,New,Workflow is in the repo. It has not run on GitHub until the repo is pushed.
+6,Task,WampServer,Closed,The site runs on this PC with Apache 2.4.41 PHP 7.3.12 and MariaDB 10.4.10.
+7,Task,Physical phone test,Closed,Art on Denim was installed on a Samsung Galaxy A06 on the same Wi-Fi. The phone loaded the homepage from this PC at 192.168.0.225.
+8,Task,GitHub Actions,Active,The workflow ran on GitHub on 19 Oct 2026. PHP syntax passed. The Android job failed because gradle-wrapper.jar had no Main-Class. The official Gradle 9.6.0 wrapper jar is committed so the next run can start.
