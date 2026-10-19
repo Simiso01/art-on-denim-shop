@@ -6,4 +6,4 @@ ID,Work Item Type,Title,State,Description
 5,Feature,Seed data,Closed,Required tables hold at least 10 linked rows. API tokens are created only by real sign-in.
 6,Task,WampServer,Closed,The site runs on this PC with Apache 2.4.41 PHP 7.3.12 and MariaDB 10.4.10.
 7,Task,Physical phone test,Closed,Art on Denim was installed on a Samsung Galaxy A06 on the same Wi-Fi. The phone loaded the homepage from this PC at 192.168.0.225.
-8,Task,GitHub Actions,Active,The workflow ran on GitHub on 19 Oct 2026. PHP syntax passed. The Android job failed because gradle-wrapper.jar had no Main-Class. The official Gradle 9.6.0 wrapper jar is committed so the next run can start.
+8,Task,GitHub Actions,Closed,The workflow passed on 19 Oct 2026 after the Gradle wrapper jar was replaced. PHP syntax and the Android unit test both succeeded.
