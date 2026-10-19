@@ -1,0 +1,13 @@
+/vendor/
+/config/google.local.php
+/android/.gradle/
+/android/build/
+/android/app/build/
+/android/local.properties
+/android/.idea/
+/.idea/
+/android/assemble-log.txt
+/android/build-log.txt
+*.iml
+.DS_Store
+Thumbs.db
